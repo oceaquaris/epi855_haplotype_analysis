@@ -1,0 +1,121 @@
+====================== Welcome to MVP ======================
+      A Memory-efficient, Visualization-enhanced, and       
+             Parallel-accelerated Tool For GWAS             
+                    __  __  __   __  ___                    
+                   |  \/  | \ \ / / | _ \                   
+                   | |\/| |  \ V /  |  _/                   
+                   |_|  |_|   \_/   |_|     Version: 1.0.4  
+  Designed and Maintained by Lilin Yin, Haohao Zhang, and   
+  Xiaolei Liu                                               
+  Contributors: Zhenshuang Tang, Jingya Xu, Dong Yin,       
+  Zhiwu Zhang, Xiaohui Yuan, Mengjin Zhu, Shuhong Zhao,     
+  Xinyun Li                                                 
+  Contact: xiaoleiliu@mail.hzau.edu.cn                      
+============================================================
+Start: 2020-12-14 22:53:46 
+The log has been output to the file: rMVP_out/genoAnalysis//MVP.20201214_225346.log 
+Input data has 514 individuals, 52128 markers 
+Analyzed trait: Anthesis 
+Number of threads used: 4 
+Eigen Decomposition on GRM 
+Number of provided covariates of MLM: 2 
+Number of provided covariates of FarmCPU: 1 
+-------------------------GWAS Start------------------------- 
+Mixed Linear Model (MLM) Start... 
+Variance components using: EMMA 
+Estimated Vg and Ve: 6.375932 0.403332 
+scanning...
+Genomic inflation factor (lambda): 0.8421 
+Writing results to local file 
+FarmCPU Start... 
+Current loop: 1 out of maximum of 10 
+seqQTN: 
+NULL 
+number of covariates in current loop is: 
+1 
+scanning... 
+Current loop: 2 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+27913 27816 51750 2368 7024 4593 31511 20633 41187 
+number of covariates in current loop is: 
+10 
+scanning... 
+Current loop: 3 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+27507 27871 27993 27616 27576 51750 7024 41187 31511 27913 20633 2368 4593 
+number of covariates in current loop is: 
+14 
+scanning... 
+Current loop: 4 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+27913 47989 47707 7024 47669 47508 51750 48052 27576 27507 41187 31511 2368 27993 20633 27871 4593 27616 
+number of covariates in current loop is: 
+19 
+scanning... 
+Current loop: 5 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+7024 27913 18931 14853 14405 44797 31511 27576 15071 15108 27507 51750 48052 41187 4593 27993 47508 2368 20633 47989 47707 
+number of covariates in current loop is: 
+22 
+scanning... 
+Current loop: 6 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+15108 15071 27913 27507 7024 31511 44797 12047 27122 18931 47707 27576 27993 14853 4593 41187 48052 2368 51750 14405 47508 20633 47989 
+number of covariates in current loop is: 
+24 
+scanning... 
+Current loop: 7 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+15108 15071 7024 44797 31511 27122 12047 18931 27913 27993 51750 22427 33315 48052 14405 27576 27507 41187 4593 47707 20633 47508 14853 2368 47989 
+number of covariates in current loop is: 
+26 
+scanning... 
+Current loop: 8 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+15108 15071 44797 31511 7024 27122 22427 27913 33315 27993 12047 18931 36558 51750 4593 47707 27576 48052 14853 41187 47508 14405 27507 20633 47989 2368 
+number of covariates in current loop is: 
+27 
+scanning... 
+Current loop: 9 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+15108 15071 31511 44797 7024 27122 22427 36558 27993 12047 33315 27913 18931 48559 4593 47707 51750 14405 27576 48052 41187 47508 14853 27507 20633 2368 47989 
+number of covariates in current loop is: 
+28 
+scanning... 
+Current loop: 10 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+15108 15071 31511 44797 36558 22427 12047 27913 27993 7024 48559 27122 33315 18931 14405 4593 41187 47508 27507 48052 14853 27576 47707 51750 2368 20633 47989 
+Total number of possible QTNs in the model is: 27 
+number of covariates in current loop is: 
+28 
+scanning... 
+Genomic inflation factor (lambda): 0.9978 
+Writing results to local file 
+Significant level: 9.59e-07 
+---------------------Visualization Start-------------------- 
+Phenotype distribution Plotting 
+SNP_Density Plotting 
+Circular_Manhattan Plotting Anthesis.MLM 
+Circular_Manhattan Plotting Anthesis.FarmCPU 
+Rectangular_Manhattan Plotting Anthesis.MLM 
+Rectangular_Manhattan Plotting Anthesis.FarmCPU 
+Q_Q Plotting Anthesis.MLM 
+Q_Q Plotting Anthesis.FarmCPU 
+Multracks_Rectangular Plotting Anthesis.MLM 
+Multracks_Rectangular Plotting Anthesis.FarmCPU 
+Multracks_QQ Plotting Anthesis.MLM 
+Multracks_QQ Plotting Anthesis.FarmCPU 
+Multraits_QQ Plotting Anthesis.MLM 
+Multraits_QQ Plotting Anthesis.FarmCPU 
+Results are stored at Working Directory: rMVP_out/genoAnalysis/ 
+End: 2020-12-14 22:54:24 
+===================== MVP ACCOMPLISHED ===================== 

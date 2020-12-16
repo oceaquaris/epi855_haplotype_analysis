@@ -1,0 +1,99 @@
+====================== Welcome to MVP ======================
+      A Memory-efficient, Visualization-enhanced, and       
+             Parallel-accelerated Tool For GWAS             
+                    __  __  __   __  ___                    
+                   |  \/  | \ \ / / | _ \                   
+                   | |\/| |  \ V /  |  _/                   
+                   |_|  |_|   \_/   |_|     Version: 1.0.4  
+  Designed and Maintained by Lilin Yin, Haohao Zhang, and   
+  Xiaolei Liu                                               
+  Contributors: Zhenshuang Tang, Jingya Xu, Dong Yin,       
+  Zhiwu Zhang, Xiaohui Yuan, Mengjin Zhu, Shuhong Zhao,     
+  Xinyun Li                                                 
+  Contact: xiaoleiliu@mail.hzau.edu.cn                      
+============================================================
+Start: 2020-12-14 22:55:08 
+The log has been output to the file: rMVP_out/genoAnalysis//MVP.20201214_225508.log 
+Input data has 514 individuals, 52128 markers 
+Analyzed trait: PlantHeight 
+Number of threads used: 4 
+Eigen Decomposition on GRM 
+Number of provided covariates of MLM: 2 
+Number of provided covariates of FarmCPU: 1 
+-------------------------GWAS Start------------------------- 
+Mixed Linear Model (MLM) Start... 
+Variance components using: EMMA 
+Estimated Vg and Ve: 850.978648 70.106157 
+scanning...
+Genomic inflation factor (lambda): 0.9977 
+Writing results to local file 
+FarmCPU Start... 
+Current loop: 1 out of maximum of 10 
+seqQTN: 
+NULL 
+number of covariates in current loop is: 
+1 
+scanning... 
+Current loop: 2 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+25049 4396 2152 41187 3190 49104 44041 5047 51750 38124 15710 
+number of covariates in current loop is: 
+12 
+scanning... 
+Current loop: 3 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+25168 50081 49793 49632 51750 4396 5047 15710 41187 3190 44041 2152 38124 49104 
+number of covariates in current loop is: 
+15 
+scanning... 
+Current loop: 4 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+25168 41187 36423 36430 36713 38124 15710 4396 44041 2152 5047 50081 49793 51750 49104 3190 
+number of covariates in current loop is: 
+17 
+scanning... 
+Current loop: 5 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+41187 25168 50081 15710 4396 39888 38124 29891 21698 51346 36423 44041 5047 36713 51750 36430 2152 49793 49104 3190 
+number of covariates in current loop is: 
+21 
+scanning... 
+Current loop: 6 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+41187 25168 15710 4396 51346 21698 39888 20065 36423 50081 2152 29891 38124 44041 5047 36713 49104 49793 3190 36430 51750 
+number of covariates in current loop is: 
+22 
+scanning... 
+Current loop: 7 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+25168 41187 15710 51346 21698 4396 20065 50081 39888 36423 2152 38124 5047 29891 44041 36713 49104 36430 3190 49793 51750 
+number of covariates in current loop is: 
+22 
+scanning... 
+Genomic inflation factor (lambda): 1.1573 
+Writing results to local file 
+Significant level: 9.59e-07 
+---------------------Visualization Start-------------------- 
+Phenotype distribution Plotting 
+SNP_Density Plotting 
+Circular_Manhattan Plotting PlantHeight.MLM 
+Circular_Manhattan Plotting PlantHeight.FarmCPU 
+Rectangular_Manhattan Plotting PlantHeight.MLM 
+Rectangular_Manhattan Plotting PlantHeight.FarmCPU 
+Q_Q Plotting PlantHeight.MLM 
+Q_Q Plotting PlantHeight.FarmCPU 
+Multracks_Rectangular Plotting PlantHeight.MLM 
+Multracks_Rectangular Plotting PlantHeight.FarmCPU 
+Multracks_QQ Plotting PlantHeight.MLM 
+Multracks_QQ Plotting PlantHeight.FarmCPU 
+Multraits_QQ Plotting PlantHeight.MLM 
+Multraits_QQ Plotting PlantHeight.FarmCPU 
+Results are stored at Working Directory: rMVP_out/genoAnalysis/ 
+End: 2020-12-14 22:55:54 
+===================== MVP ACCOMPLISHED ===================== 

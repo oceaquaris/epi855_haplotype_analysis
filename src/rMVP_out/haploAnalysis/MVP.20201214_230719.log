@@ -1,0 +1,99 @@
+====================== Welcome to MVP ======================
+      A Memory-efficient, Visualization-enhanced, and       
+             Parallel-accelerated Tool For GWAS             
+                    __  __  __   __  ___                    
+                   |  \/  | \ \ / / | _ \                   
+                   | |\/| |  \ V /  |  _/                   
+                   |_|  |_|   \_/   |_|     Version: 1.0.4  
+  Designed and Maintained by Lilin Yin, Haohao Zhang, and   
+  Xiaolei Liu                                               
+  Contributors: Zhenshuang Tang, Jingya Xu, Dong Yin,       
+  Zhiwu Zhang, Xiaohui Yuan, Mengjin Zhu, Shuhong Zhao,     
+  Xinyun Li                                                 
+  Contact: xiaoleiliu@mail.hzau.edu.cn                      
+============================================================
+Start: 2020-12-14 23:07:19 
+The log has been output to the file: rMVP_out/haploAnalysis//MVP.20201214_230719.log 
+Input data has 514 individuals, 448131 markers 
+Analyzed trait: EarHeight 
+Number of threads used: 4 
+Eigen Decomposition on GRM 
+Number of provided covariates of MLM: 2 
+Number of provided covariates of FarmCPU: 1 
+-------------------------GWAS Start------------------------- 
+Mixed Linear Model (MLM) Start... 
+Variance components using: EMMA 
+Estimated Vg and Ve: 297.624017 31.638083 
+scanning...
+Genomic inflation factor (lambda): 0.7999 
+Writing results to local file 
+FarmCPU Start... 
+Current loop: 1 out of maximum of 10 
+seqQTN: 
+NULL 
+number of covariates in current loop is: 
+1 
+scanning... 
+Current loop: 2 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+212765 18133 421469 19750 245381 423413 134813 38924 445684 61996 
+number of covariates in current loop is: 
+11 
+scanning... 
+Current loop: 3 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+132255 129741 153678 63592 431931 26176 421469 423413 245381 38924 212765 61996 134813 445684 18133 19750 
+number of covariates in current loop is: 
+17 
+scanning... 
+Current loop: 4 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+153678 421469 63592 344431 212765 156780 134813 108070 431931 132532 211568 103259 363212 245381 26176 423413 445684 61996 19750 132255 38924 18133 
+number of covariates in current loop is: 
+23 
+scanning... 
+Current loop: 5 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+132255 26176 212765 153678 132532 156780 431931 134813 318139 251792 358570 108070 344431 421469 103259 61996 423413 211568 445684 38924 19750 18133 63592 
+number of covariates in current loop is: 
+24 
+scanning... 
+Current loop: 6 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+132255 212765 132532 26176 134813 318139 153678 431931 358570 156780 103259 61996 312352 251792 421469 344431 423413 108070 211568 19750 38924 445684 63592 18133 
+number of covariates in current loop is: 
+25 
+scanning... 
+Current loop: 7 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+132255 212765 132532 318139 26176 312352 134813 358570 153678 103259 431931 61996 251792 156780 344431 421469 108070 423413 19750 211568 38924 445684 18133 63592 
+number of covariates in current loop is: 
+25 
+scanning... 
+Genomic inflation factor (lambda): 0.9338 
+Writing results to local file 
+Significant level: 1.12e-07 
+---------------------Visualization Start-------------------- 
+Phenotype distribution Plotting 
+SNP_Density Plotting 
+Circular_Manhattan Plotting EarHeight.MLM 
+Circular_Manhattan Plotting EarHeight.FarmCPU 
+Rectangular_Manhattan Plotting EarHeight.MLM 
+Rectangular_Manhattan Plotting EarHeight.FarmCPU 
+Q_Q Plotting EarHeight.MLM 
+Q_Q Plotting EarHeight.FarmCPU 
+Multracks_Rectangular Plotting EarHeight.MLM 
+Multracks_Rectangular Plotting EarHeight.FarmCPU 
+Multracks_QQ Plotting EarHeight.MLM 
+Multracks_QQ Plotting EarHeight.FarmCPU 
+Multraits_QQ Plotting EarHeight.MLM 
+Multraits_QQ Plotting EarHeight.FarmCPU 
+Results are stored at Working Directory: rMVP_out/haploAnalysis/ 
+End: 2020-12-14 23:11:01 
+===================== MVP ACCOMPLISHED ===================== 

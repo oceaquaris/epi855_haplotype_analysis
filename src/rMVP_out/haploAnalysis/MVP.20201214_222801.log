@@ -1,0 +1,92 @@
+====================== Welcome to MVP ======================
+      A Memory-efficient, Visualization-enhanced, and       
+             Parallel-accelerated Tool For GWAS             
+                    __  __  __   __  ___                    
+                   |  \/  | \ \ / / | _ \                   
+                   | |\/| |  \ V /  |  _/                   
+                   |_|  |_|   \_/   |_|     Version: 1.0.4  
+  Designed and Maintained by Lilin Yin, Haohao Zhang, and   
+  Xiaolei Liu                                               
+  Contributors: Zhenshuang Tang, Jingya Xu, Dong Yin,       
+  Zhiwu Zhang, Xiaohui Yuan, Mengjin Zhu, Shuhong Zhao,     
+  Xinyun Li                                                 
+  Contact: xiaoleiliu@mail.hzau.edu.cn                      
+============================================================
+Start: 2020-12-14 22:28:01 
+The log has been output to the file: rMVP_out/haploAnalysis//MVP.20201214_222801.log 
+Input data has 514 individuals, 448131 markers 
+Analyzed trait: Silking 
+Number of threads used: 4 
+Eigen Decomposition on GRM 
+Number of provided covariates of MLM: 1 
+Number of provided covariates of FarmCPU: 1 
+-------------------------GWAS Start------------------------- 
+Mixed Linear Model (MLM) Start... 
+Variance components using: EMMA 
+Estimated Vg and Ve: 9.547518 0.483583 
+scanning...
+Genomic inflation factor (lambda): 0.7914 
+Writing results to local file 
+FarmCPU Start... 
+Current loop: 1 out of maximum of 10 
+seqQTN: 
+NULL 
+number of covariates in current loop is: 
+1 
+scanning... 
+Current loop: 2 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+237792 237646 19871 18763 432023 61996 382130 39247 327036 423596 
+number of covariates in current loop is: 
+11 
+scanning... 
+Current loop: 3 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+321669 321827 437831 235290 127418 432370 434298 434497 132533 432023 19871 382130 327036 18763 61996 237792 423596 39247 237646 
+number of covariates in current loop is: 
+20 
+scanning... 
+Current loop: 4 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+321669 321827 235290 333507 132167 127418 166614 26415 165656 421961 377520 177893 61996 19871 132533 327036 382130 39247 437831 423596 18763 237792 432023 432370 237646 434298 434497 
+number of covariates in current loop is: 
+28 
+scanning... 
+Current loop: 5 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+321669 321827 421961 127418 132167 235290 377520 132533 73010 26415 112647 382130 166614 19871 423596 327036 165656 18763 39247 333507 432023 61996 432370 237646 434298 437831 237792 177893 
+number of covariates in current loop is: 
+29 
+scanning... 
+Current loop: 6 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+321669 321827 132167 421961 132533 377520 127418 73010 166614 235290 112647 26415 382130 423596 327036 18763 19871 333507 39247 165656 432023 237646 61996 432370 437831 434298 237792 177893 
+number of covariates in current loop is: 
+29 
+scanning... 
+Genomic inflation factor (lambda): 1.3005 
+Writing results to local file 
+Significant level: 1.12e-07 
+---------------------Visualization Start-------------------- 
+Phenotype distribution Plotting 
+SNP_Density Plotting 
+Circular_Manhattan Plotting Silking.MLM 
+Circular_Manhattan Plotting Silking.FarmCPU 
+Rectangular_Manhattan Plotting Silking.MLM 
+Rectangular_Manhattan Plotting Silking.FarmCPU 
+Q_Q Plotting Silking.MLM 
+Q_Q Plotting Silking.FarmCPU 
+Multracks_Rectangular Plotting Silking.MLM 
+Multracks_Rectangular Plotting Silking.FarmCPU 
+Multracks_QQ Plotting Silking.MLM 
+Multracks_QQ Plotting Silking.FarmCPU 
+Multraits_QQ Plotting Silking.MLM 
+Multraits_QQ Plotting Silking.FarmCPU 
+Results are stored at Working Directory: rMVP_out/haploAnalysis/ 
+End: 2020-12-14 22:31:23 
+===================== MVP ACCOMPLISHED ===================== 
